@@ -60,5 +60,8 @@
     "lib": "lib",
     "test": "test"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@nogully/complete-me": "git+https://github.com/nogully/complete-me.git",
+    "@wagasky/complete-me": "git+https://github.com/wagasky/complete-me.git"
+  }
 }
