@@ -13,4 +13,7 @@ describe.skip('HourlyForecast', () => {
   it('should exist', () => {
     expect(wrapper).toBeDefined();
   })
+
+  //test that it has 7 cards and the right data
+  
 })
