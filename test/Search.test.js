@@ -10,7 +10,9 @@ describe('Search', () => {
     wrapper = shallow(<Search />)
   })
 
-  it.only('should exist', () => {
+  it('should exist', () => {
     expect(wrapper).toBeDefined();
   })
+
+
 })
