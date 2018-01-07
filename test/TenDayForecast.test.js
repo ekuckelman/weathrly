@@ -2,7 +2,7 @@ import React from 'react';
 import { mount, shallow } from 'enzyme';
 import TenDayForecast from '../lib/TenDayForecast.js'
 
-describe('TenDayForecast', () => {
+describe.skip('TenDayForecast', () => {
 
   let wrapper;
 
@@ -10,7 +10,7 @@ describe('TenDayForecast', () => {
     wrapper = shallow(<TenDayForecast />)
   })
 
-  it.only('should exist', () => {
+  it('should exist', () => {
     expect(wrapper).toBeDefined();
   })
 })

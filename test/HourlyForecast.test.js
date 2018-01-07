@@ -2,7 +2,7 @@ import React from 'react';
 import { mount, shallow } from 'enzyme';
 import HourlyForecast from '../lib/HourlyForecast.js'
 
-describe('HourlyForecast', () => {
+describe.skip('HourlyForecast', () => {
 
   let wrapper;
 
@@ -10,7 +10,7 @@ describe('HourlyForecast', () => {
     wrapper = shallow(<HourlyForecast />)
   })
 
-  it.only('should exist', () => {
+  it('should exist', () => {
     expect(wrapper).toBeDefined();
   })
 })
