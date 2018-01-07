@@ -34,16 +34,16 @@ describe('App', () => {
 
   it('should render the Search, Current, Hourly and TenDay components', () => {
     localStorage.setItem('location', {
-                            "display": "Louisville, KY", 
-                            "suggestions": []
+      "display": "Louisville, KY", 
+      "suggestions": []
     });
+    
     wrapper.setState({ currentWeather: mockData })
     expect(wrapper.find('Search').length).toEqual(1)
     expect(wrapper.find('Current').length).toEqual(1)
     expect(wrapper.find('HourlyForecast').length).toEqual(1)
     expect(wrapper.find('TenDayForecast').length).toEqual(1)
   })
-
 
   it('should have a default of an empty state', () => {
     expect(wrapper.state().currentWeather).toEqual(null)
