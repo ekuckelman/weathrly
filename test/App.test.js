@@ -37,8 +37,9 @@ describe('App', () => {
       "display": "Louisville, KY", 
       "suggestions": []
     });
-    
+
     wrapper.setState({ currentWeather: mockData })
+
     expect(wrapper.find('Search').length).toEqual(1)
     expect(wrapper.find('Current').length).toEqual(1)
     expect(wrapper.find('HourlyForecast').length).toEqual(1)
