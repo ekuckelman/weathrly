@@ -1,0 +1,13 @@
+.HourlyForecast {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr, repeat(autofill, 2fr);
+}
+
+.sectionTitle {
+  grid-row: 1;
+}
+
+.Card {
+  grid-row: 2;
+}
