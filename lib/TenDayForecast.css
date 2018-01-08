@@ -1,0 +1,14 @@
+.TenDayForecast {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  grid-auto-flow: wrap;
+}
+
+.sectionTitle {
+  grid-row: 1;
+}
+
+.Card {
+  grid-row: 2;
+}
