@@ -11,3 +11,19 @@
 #searchButton {
   width: 300px;
 }
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.redInputBox {
+  border: 1px solid blue;
+}
+
+.normalInputBox {
+  border: 1px solid green;
+}

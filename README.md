@@ -1,4 +1,9 @@
-# React Starter Kit
+# Weathrly
+
+A responsive weather forecasting application in React pulling from the Weather Underground API.
+
+Wireframes: 
+![weathrly sketch](./IMG_0130.jpg)
 
 To install the dependencies:
 
