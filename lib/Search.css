@@ -21,7 +21,7 @@ input:focus {
 }
 
 .redInputBox {
-  border: 1px solid blue;
+  border: 1px solid red;
 }
 
 .normalInputBox {
