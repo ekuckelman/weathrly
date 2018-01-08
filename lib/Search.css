@@ -1,0 +1,13 @@
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#searchText {
+  width: 300px;
+}
+
+#searchButton {
+  width: 300px;
+}
