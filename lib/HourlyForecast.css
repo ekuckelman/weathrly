@@ -1,9 +1,8 @@
 .HourlyForecast {
   display: flex;
   flex-direction: column;
-  /*flex-wrap: wrap;*/
-/*  grid-template-rows: 1fr repeat(autofill, 2fr);
-*/}
+  margin: 0px 50px;
+}
 
 .cardContainer {
   display: flex;

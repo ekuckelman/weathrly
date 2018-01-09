@@ -9,13 +9,15 @@
 }
 
 #searchButton {
-  background-color: white;
+  background-color: ghostwhite;
   border: none;
   color: black;
   font-family: 'Dosis', sans-serif;
   font-weight: 600;
+  letter-spacing: 1px;
   margin: 20px;
-  width: 300px;
+  width: 306px;
+  height: 20px;
 }
 
 button:focus {
@@ -24,4 +26,9 @@ button:focus {
 
 input:focus {
   outline: none;
+}
+
+label {
+  color: white;
+  margin: 20px 0px 20px 0px;
 }
