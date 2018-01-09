@@ -1,7 +1,7 @@
 .searchContainer {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 #searchText {
@@ -9,6 +9,12 @@
 }
 
 #searchButton {
+  background-color: white;
+  border: none;
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  margin: 20px;
   width: 300px;
 }
 
