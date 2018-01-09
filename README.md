@@ -31,6 +31,7 @@ To install the auto-search functionality:
 
 ```js
 npm install --save https://github.com/wagasky/complete-me.git
+```
 
 To run tests in Node:
 
