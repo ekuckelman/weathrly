@@ -19,11 +19,3 @@ button:focus {
 input:focus {
   outline: none;
 }
-
-.redInputBox {
-  border: 1px solid red;
-}
-
-.normalInputBox {
-  border: 1px solid green;
-}
