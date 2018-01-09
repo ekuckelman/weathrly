@@ -15,7 +15,6 @@ global.localStorage = {
   }
 };
 
-
 describe('App', () => {
 
   let wrapper;
